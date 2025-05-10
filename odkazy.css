@@ -1,0 +1,448 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.champions-league {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/champions-league-draw-analysed.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.champions-league nav ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.champions-league nav ul li{
+    display: inline-block;
+}
+
+.champions-league nav ul li a {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+    color: blue;
+}
+
+.champions-league nav ul li a:hover {
+    color: white;
+}
+
+.UCL a {
+    display: block;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.UCL a:hover {
+    transform: scale(1.1);
+}
+
+.links-UCL {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.links-UCL a {
+    text-decoration: none;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.RM:hover {
+    background-color: #ffffff; /* Real Madrid - bílá */
+    border: 3px solid #ffffff;
+    color: black;
+}
+
+.LIV:hover {
+    background-color: #C8102E; /* Liverpool - červená */
+    color: white;
+    border: 3px solid #C8102E;
+}
+
+.BAR:hover {
+    background-color: #A50044; /* Barcelona - vínová (claret) */
+    color: white;
+    border: 3px solid #A50044;
+}
+
+.ARS:hover {
+    background-color: #EF0107; /* Arsenal - červená */
+    color: white;
+    border: 3px solid #EF0107;
+}
+
+.ATM:hover {
+    background-color: #D00027; /* Atlético Madrid - červená */
+    color: white;
+    border: 3px solid #D00027;
+}
+
+.BAY:hover {
+    background-color: #DC052D; /* Bayern - červená */
+    color: white;
+    border: 3px solid #DC052D;
+}
+
+.ACM:hover {
+    background-color: #FB090B; /* AC Milan - červená */
+    color: white;
+    border: 3px solid #FB090B;
+}
+
+.PSV:hover {
+    background-color: #DA291C; /* PSV - červená */
+    color: white;
+    border: 3px solid #DA291C;
+}
+
+.INT:hover {
+    background-color: #00529F; /* Inter - modrá */
+    color: white;
+    border: 3px solid #00529F;
+}
+
+.BAN:hover {
+    background-color: #1E90FF; /* Baník Ostrava - modrá */
+    color: white;
+    border: 3px solid #1E90FF;
+}
+
+.LEV:hover {
+    background-color: #E32219; /* Leverkusen - červená */
+    color: white;
+    border: 3px solid #E32219;
+}
+
+.JUV:hover {
+    background-color: #000000; /* Juventus - černá */
+    color: white;
+    border: 3px solid #000000;
+}
+
+.PSG:hover {
+    background-color: #004170; /* PSG - modrá */
+    color: white;
+    border: 3px solid #004170;
+}
+
+.ACS:hover {
+    background-color: #800000; /* Sparta Praha - tmavě vínová */
+    color: white;
+    border: 3px solid #800000;
+}
+
+.DOR:hover {
+    background-color: #FDE100; /* Dortmund - žlutá */
+    color: black;
+    border: 3px solid #FDE100;
+}
+
+.MCI:hover {
+    background-color: #6CABDD; /* Man City - světle modrá */
+    color: black;
+    border: 3px solid #6CABDD;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.europa-league {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/MV5BZDQ4YTdjYjYtZjZhNy00OTA2LTg1NGItYzU2MTA2ZDk1ZTk4XkEyXkFqcGc@._V1_.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.europa-league nav ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.europa-league nav ul li{
+    display: inline-block;
+}
+
+.europa-league nav ul li a {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+    color: yellow;
+}
+
+.europa-league nav ul li a:hover {
+    color: white;
+}
+
+.links-EL {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.links-EL a {
+    text-decoration: none;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.EL a {
+    display: block;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.EL a:hover {
+    transform: scale(1.1);
+}
+
+.LEV:hover {
+    background-color: #E32219;
+    color: white;
+    border: 3px solid #E32219;
+}
+
+.ROM:hover {
+    background-color: #8E1111;
+    color: white;
+    border: 3px solid #8E1111;
+}
+
+.VIL:hover {
+    background-color: #FFF200;
+    color: black;
+    border: 3px solid #FFF200;
+}
+
+.SEV:hover {
+    background-color: #D00027;
+    color: white;
+    border: 3px solid #D00027;
+}
+
+.WHU:hover {
+    background-color: #7A263A;
+    color: white;
+    border: 3px solid #7A263A;
+}
+
+.FEN:hover {
+    background-color: #002B5E;
+    color: white;
+    border: 3px solid #002B5E;
+}
+
+.REN:hover {
+    background-color: #D71920;
+    color: white;
+    border: 3px solid #D71920;
+}
+
+.SPO:hover {
+    background-color: #007A33;
+    color: white;
+    border: 3px solid #007A33;
+}
+
+.PAR:hover {
+    background-color: #000000;
+    color: white;
+    border: 3px solid #000000;
+}
+
+.SLA:hover {
+    background-color: #E11B22;
+    color: white;
+    border: 3px solid #E11B22;
+}
+
+.FIO:hover {
+    background-color: #5F259F;
+    color: white;
+    border: 3px solid #5F259F;
+}
+
+.TRA:hover {
+    background-color: #7D1538;
+    color: white;
+    border: 3px solid #7D1538;
+}
+
+.FRE:hover {
+    background-color: #C8102E;
+    color: white;
+    border: 3px solid #C8102E;
+}
+
+.BET:hover {
+    background-color: #00954C;
+    color: white;
+    border: 3px solid #00954C;
+}
+
+.GAL:hover {
+    background-color: #A32638;
+    color: white;
+    border: 3px solid #A32638;
+}
+
+.LIL:hover {
+    background-color: #E30613;
+    color: white;
+    border: 3px solid #E30613;
+}
+
+/*---------------------------------------------------*/
+
+.conference-league {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/evropska-konferencni-liga.250417ss.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.conference-league nav ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.conference-league nav ul li{
+    display: inline-block;
+}
+
+.conference-league nav ul li a {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+    color: #15E62D;
+}
+
+.conference-league nav ul li a:hover {
+    color: white;
+}
+
+.links-KL {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.links-KL a {
+    text-decoration: none;
+    border: 3px solid #15E62D;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.KL a {
+    display: block;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.KL a:hover {
+    transform: scale(1.1);
+}
+
+.CHE:hover {
+    background-color: #034694;
+    color: white;
+    border: 3px solid #034694;
+}
+
+.FIO:hover {
+    background-color: #5F259F;
+    color: white;
+    border: 3px solid #5F259F;
+}
+
+.LEG:hover {
+    background-color: #006A44;
+    color: white;
+    border: 3px solid #006A44;
+}
+
+.HEI:hover {
+    background-color: #E30613;
+    color: white;
+    border: 3px solid #E30613;
+}
+
+.RAP:hover {
+    background-color: #009639;
+    color: white;
+    border: 3px solid #009639;
+}
+
+.CER:hover {
+    background-color: #007A33;
+    color: white;
+    border: 3px solid #007A33;
+}
+
+.GEN:hover {
+    background-color: #003DA5;
+    color: white;
+    border: 3px solid #003DA5;
+}
+
+.COP:hover {
+    background-color: #1B4596;
+    color: white;
+    border: 3px solid #1B4596;
+}
+
+.APO:hover {
+    background-color: #FFD700;
+    color: black;
+    border: 3px solid #FFD700;
+}
+
+.OMO:hover {
+    background-color: #007A33;
+    color: white;
+    border: 3px solid #007A33;
+}
+
+.PAF:hover {
+    background-color: #1E90FF;
+    color: white;
+    border: 3px solid #1E90FF;
+}
+
+.OLI:hover {
+    background-color: #007A33;
+    color: white;
+    border: 3px solid #007A33;
+}
+
+.JAG:hover {
+    background-color: #FFD700;
+    color: black;
+    border: 3px solid #FFD700;
+}
+
+.HJK:hover {
+    background-color: #005BAC;
+    color: white;
+    border: 3px solid #005BAC;
+}
+
+.DIN:hover {
+    background-color: #003DA5;
+    color: white;
+    border: 3px solid #003DA5;
+}
